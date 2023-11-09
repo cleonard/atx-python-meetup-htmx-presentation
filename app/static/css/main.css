@@ -1,0 +1,93 @@
+html, html * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 6em;
+}
+
+#masthead {
+  background-color: midnightblue;
+  padding: 3em 1.5em;
+}
+
+#masthead h1 {
+  margin: 0;
+  text-align: center;
+}
+
+#masthead h1 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+#page {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+#post-listing {
+  background: white;
+  padding: 1.5em;
+}
+
+.post {
+  border-top: 1px solid #ccc;
+  padding: 1em;
+}
+
+.post:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.post-header {
+  color: #777;
+  margin: 0;
+}
+
+.post-author {
+  color: black;
+  font-weight: 700;
+}
+
+.post-content {
+  font-size: 16px;
+  margin: 0.5em 0;
+  line-height: 1.618;
+}
+
+#post-control {
+  background: white;
+  margin: 0;
+  padding: 1.5em;
+}
+
+#post-control textarea {
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  height: 8em;
+  padding: 1em;
+  width: 100%;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: 0;
+  border-radius: 1em;
+  color: white;
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 7px 14px;
+  text-transform: uppercase;
+}
+
+#alert {
+  margin: 4em 0;
+  text-align: center;
+}
